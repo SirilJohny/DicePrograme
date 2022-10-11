@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96F3480928D32C57009A94F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F3480828D32C57009A94F1 /* AppDelegate.swift */; };
+		96F3480B28D32C57009A94F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F3480A28D32C57009A94F1 /* SceneDelegate.swift */; };
+		96F3480D28D32C57009A94F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F3480C28D32C57009A94F1 /* ViewController.swift */; };
+		96F3481028D32C57009A94F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96F3480E28D32C57009A94F1 /* Main.storyboard */; };
+		96F3481228D32C5A009A94F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96F3481128D32C5A009A94F1 /* Assets.xcassets */; };
+		96F3481528D32C5A009A94F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96F3481328D32C5A009A94F1 /* LaunchScreen.storyboard */; };
+		96F3482028D32C5A009A94F1 /* button_ClickTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F3481F28D32C5A009A94F1 /* button_ClickTests.swift */; };
+		96F3482A28D32C5A009A94F1 /* button_ClickUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F3482928D32C5A009A94F1 /* button_ClickUITests.swift */; };
+		96F3482C28D32C5A009A94F1 /* button_ClickUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F3482B28D32C5A009A94F1 /* button_ClickUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96F3481C28D32C5A009A94F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96F347FD28D32C57009A94F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96F3480428D32C57009A94F1;
+			remoteInfo = "button Click";
+		};
+		96F3482628D32C5A009A94F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96F347FD28D32C57009A94F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96F3480428D32C57009A94F1;
+			remoteInfo = "button Click";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		96F3480528D32C57009A94F1 /* button Click.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "button Click.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96F3480828D32C57009A94F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		96F3480A28D32C57009A94F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		96F3480C28D32C57009A94F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		96F3480F28D32C57009A94F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96F3481128D32C5A009A94F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96F3481428D32C5A009A94F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		96F3481628D32C5A009A94F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96F3481B28D32C5A009A94F1 /* button ClickTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "button ClickTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96F3481F28D32C5A009A94F1 /* button_ClickTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = button_ClickTests.swift; sourceTree = "<group>"; };
+		96F3482528D32C5A009A94F1 /* button ClickUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "button ClickUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96F3482928D32C5A009A94F1 /* button_ClickUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = button_ClickUITests.swift; sourceTree = "<group>"; };
+		96F3482B28D32C5A009A94F1 /* button_ClickUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = button_ClickUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96F3480228D32C57009A94F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96F3481828D32C5A009A94F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96F3482228D32C5A009A94F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96F347FC28D32C57009A94F1 = {
+			isa = PBXGroup;
+			children = (
+				96F3480728D32C57009A94F1 /* button Click */,
+				96F3481E28D32C5A009A94F1 /* button ClickTests */,
+				96F3482828D32C5A009A94F1 /* button ClickUITests */,
+				96F3480628D32C57009A94F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96F3480628D32C57009A94F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96F3480528D32C57009A94F1 /* button Click.app */,
+				96F3481B28D32C5A009A94F1 /* button ClickTests.xctest */,
+				96F3482528D32C5A009A94F1 /* button ClickUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96F3480728D32C57009A94F1 /* button Click */ = {
+			isa = PBXGroup;
+			children = (
+				96F3480828D32C57009A94F1 /* AppDelegate.swift */,
+				96F3480A28D32C57009A94F1 /* SceneDelegate.swift */,
+				96F3480C28D32C57009A94F1 /* ViewController.swift */,
+				96F3480E28D32C57009A94F1 /* Main.storyboard */,
+				96F3481128D32C5A009A94F1 /* Assets.xcassets */,
+				96F3481328D32C5A009A94F1 /* LaunchScreen.storyboard */,
+				96F3481628D32C5A009A94F1 /* Info.plist */,
+			);
+			path = "button Click";
+			sourceTree = "<group>";
+		};
+		96F3481E28D32C5A009A94F1 /* button ClickTests */ = {
+			isa = PBXGroup;
+			children = (
+				96F3481F28D32C5A009A94F1 /* button_ClickTests.swift */,
+			);
+			path = "button ClickTests";
+			sourceTree = "<group>";
+		};
+		96F3482828D32C5A009A94F1 /* button ClickUITests */ = {
+			isa = PBXGroup;
+			children = (
+				96F3482928D32C5A009A94F1 /* button_ClickUITests.swift */,
+				96F3482B28D32C5A009A94F1 /* button_ClickUITestsLaunchTests.swift */,
+			);
+			path = "button ClickUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96F3480428D32C57009A94F1 /* button Click */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96F3482F28D32C5A009A94F1 /* Build configuration list for PBXNativeTarget "button Click" */;
+			buildPhases = (
+				96F3480128D32C57009A94F1 /* Sources */,
+				96F3480228D32C57009A94F1 /* Frameworks */,
+				96F3480328D32C57009A94F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "button Click";
+			productName = "button Click";
+			productReference = 96F3480528D32C57009A94F1 /* button Click.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96F3481A28D32C5A009A94F1 /* button ClickTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96F3483228D32C5A009A94F1 /* Build configuration list for PBXNativeTarget "button ClickTests" */;
+			buildPhases = (
+				96F3481728D32C5A009A94F1 /* Sources */,
+				96F3481828D32C5A009A94F1 /* Frameworks */,
+				96F3481928D32C5A009A94F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96F3481D28D32C5A009A94F1 /* PBXTargetDependency */,
+			);
+			name = "button ClickTests";
+			productName = "button ClickTests";
+			productReference = 96F3481B28D32C5A009A94F1 /* button ClickTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		96F3482428D32C5A009A94F1 /* button ClickUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96F3483528D32C5A009A94F1 /* Build configuration list for PBXNativeTarget "button ClickUITests" */;
+			buildPhases = (
+				96F3482128D32C5A009A94F1 /* Sources */,
+				96F3482228D32C5A009A94F1 /* Frameworks */,
+				96F3482328D32C5A009A94F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96F3482728D32C5A009A94F1 /* PBXTargetDependency */,
+			);
+			name = "button ClickUITests";
+			productName = "button ClickUITests";
+			productReference = 96F3482528D32C5A009A94F1 /* button ClickUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96F347FD28D32C57009A94F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					96F3480428D32C57009A94F1 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					96F3481A28D32C5A009A94F1 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 96F3480428D32C57009A94F1;
+					};
+					96F3482428D32C5A009A94F1 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 96F3480428D32C57009A94F1;
+					};
+				};
+			};
+			buildConfigurationList = 96F3480028D32C57009A94F1 /* Build configuration list for PBXProject "button Click" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96F347FC28D32C57009A94F1;
+			productRefGroup = 96F3480628D32C57009A94F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96F3480428D32C57009A94F1 /* button Click */,
+				96F3481A28D32C5A009A94F1 /* button ClickTests */,
+				96F3482428D32C5A009A94F1 /* button ClickUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96F3480328D32C57009A94F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96F3481528D32C5A009A94F1 /* LaunchScreen.storyboard in Resources */,
+				96F3481228D32C5A009A94F1 /* Assets.xcassets in Resources */,
+				96F3481028D32C57009A94F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96F3481928D32C5A009A94F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96F3482328D32C5A009A94F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96F3480128D32C57009A94F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96F3480D28D32C57009A94F1 /* ViewController.swift in Sources */,
+				96F3480928D32C57009A94F1 /* AppDelegate.swift in Sources */,
+				96F3480B28D32C57009A94F1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96F3481728D32C5A009A94F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96F3482028D32C5A009A94F1 /* button_ClickTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96F3482128D32C5A009A94F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96F3482A28D32C5A009A94F1 /* button_ClickUITests.swift in Sources */,
+				96F3482C28D32C5A009A94F1 /* button_ClickUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96F3481D28D32C5A009A94F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96F3480428D32C57009A94F1 /* button Click */;
+			targetProxy = 96F3481C28D32C5A009A94F1 /* PBXContainerItemProxy */;
+		};
+		96F3482728D32C5A009A94F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96F3480428D32C57009A94F1 /* button Click */;
+			targetProxy = 96F3482628D32C5A009A94F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		96F3480E28D32C57009A94F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96F3480F28D32C57009A94F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		96F3481328D32C5A009A94F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96F3481428D32C5A009A94F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96F3482D28D32C5A009A94F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		96F3482E28D32C5A009A94F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96F3483028D32C5A009A94F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "button Click/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Siril.button-Click";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		96F3483128D32C5A009A94F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "button Click/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Siril.button-Click";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		96F3483328D32C5A009A94F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Siril.button-ClickTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/button Click.app/button Click";
+			};
+			name = Debug;
+		};
+		96F3483428D32C5A009A94F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Siril.button-ClickTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/button Click.app/button Click";
+			};
+			name = Release;
+		};
+		96F3483628D32C5A009A94F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Siril.button-ClickUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "button Click";
+			};
+			name = Debug;
+		};
+		96F3483728D32C5A009A94F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Siril.button-ClickUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "button Click";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96F3480028D32C57009A94F1 /* Build configuration list for PBXProject "button Click" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96F3482D28D32C5A009A94F1 /* Debug */,
+				96F3482E28D32C5A009A94F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96F3482F28D32C5A009A94F1 /* Build configuration list for PBXNativeTarget "button Click" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96F3483028D32C5A009A94F1 /* Debug */,
+				96F3483128D32C5A009A94F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96F3483228D32C5A009A94F1 /* Build configuration list for PBXNativeTarget "button ClickTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96F3483328D32C5A009A94F1 /* Debug */,
+				96F3483428D32C5A009A94F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96F3483528D32C5A009A94F1 /* Build configuration list for PBXNativeTarget "button ClickUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96F3483628D32C5A009A94F1 /* Debug */,
+				96F3483728D32C5A009A94F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96F347FD28D32C57009A94F1 /* Project object */;
+}
